@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+div.header {
+    min-height: 100vh;
+    background: url(../img/basketballpic-\ 1.jpg) no-repeat;
+    background-size: cover;
+    background-position: right center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+div.header h1,
+div.header p {
+    color: white;
+}
+
+.student-one {
+    background-color: lightgray;
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+.student-one:hover {
+    box-shadow: 2px 2px 10px grey;
+}
+
+section > h2 {
+    margin: 15px;
+    text-align: center;
+}
